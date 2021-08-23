@@ -109,7 +109,7 @@ function same(arr1, arr2){
 
 same([1,2,3,2,5], [9,1,4,4,11])
 
-function same(arr1, arr2){
+function same(arr1, arr2) {
     if(arr1.length !== arr2.length){
         return false;
     }
@@ -411,7 +411,6 @@ function fibonacci(num) {
         current++;
         fibCall(current, end);
     }
-
     fibCall(2, num);
     return fibSequence;
 }
